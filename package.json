@@ -1,7 +1,7 @@
 {
-  "name": "foundation-sites-template",
+  "name": "foundation-sites-npm-template",
   "version": "1.0.0",
-  "description": "Basic template for a new Foundation for Sites project.",
+  "description": "Basic template for a new Foundation for Sites project using npm only (w/o bower).",
   "main": "gulpfile.js",
   "devDependencies": {
     "gulp": "^3.9.0",
@@ -15,16 +15,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zurb/foundation-sites-template.git"
+    "url": "https://github.com/fheinrichs/foundation-sites-npm-template.git"
   },
   "bugs": {
-    "url": "https://github.com/zurb/foundation-sites/issues",
-    "email": "foundation@zurb.com"
+    "url": "https://github.com/fheinrichs/foundation-sites-npm-template/issues",
+    "email": "felix.heinrichs@gmail.com"
   },
-  "author": "ZURB <foundation@zurb.com>",
+  "author": "fheinrichs",
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "gulp-autoprefixer": "^3.1.0"
+    "foundation-sites": "~6.0.0",
+    "motion-ui": "~1.1.0"
   }
 }
